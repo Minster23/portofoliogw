@@ -1,10 +1,13 @@
-import type { Component } from 'solid-js';
+import { Show, type Component } from 'solid-js';
+import Hero from './components/Hero';
+import Tabs from './components/Tab';
 
 const App: Component = () => {
   return (
-    <>
-      <h1>Hello world!!!!</h1>
-    </>
+    <div class='max-h-full max-w-full font-mono'>
+      <Hero/>
+      <Tabs/>
+    </div>
   );
 };
 

@@ -1,10 +1,29 @@
 {
-    "Nama":"Athilah Rafi Nurman",
-    "Tentang": "",
-    "Skill":[
-        "CI/CD ",
-        "Docker",
-        "Backend",
-        "Frontend"
+    "Nama": "Athilah Rafi Nurman",
+    "Tentang": ", seorang mahasiswa S1 Rekayasa Lunak yang memiliki skill ",
+    "Skill": [
+        {
+            "skill": "DevOps",
+            "bg": "bg-red-400"
+        },
+        {
+            "skill": "Backend",
+            "bg": "bg-blue-400"
+        },
+        {
+            "skill": "Google Cloud",
+            "bg": "bg-teal-400"
+        },
+        {
+            "skill": "System Design",
+            "bg": "bg-amber-400"
+        }
+    ],
+    "Project": [
+        {
+            "Title": "Game Engine",
+            "Link": "",
+            "Tentag": ""
+        }
     ]
 }
