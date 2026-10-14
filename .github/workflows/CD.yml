@@ -25,4 +25,5 @@ jobs:
         context: .
         push: true
         tags: |
-          ghcr.io/${{ github.repository }}/portogw:gacor
+          ghcr.io/${{ github.repository_owner }}/portogw:gacor
+          ghcr.io/${{ github.repository_owner }}/portogw:latest
