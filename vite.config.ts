@@ -5,6 +5,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
   plugins: [devtools(), solidPlugin(), tailwindcss()],
+  base: "/portofoliogw/",
   server: {
     port: 3000,
   },
