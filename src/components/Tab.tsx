@@ -1,5 +1,6 @@
 import { type Component } from "solid-js";
 import Info from "../konten/Info.json";
+import ProjectShow from "./Projects";
 
 const Tabs: Component = () => {
   return (
@@ -12,7 +13,7 @@ const Tabs: Component = () => {
         checked
       />
       <div class="tab-content border-base-300 bg-base-100 p-10">
-        Tab content 1
+        <ProjectShow/>
       </div>
 
       <input type="radio" name="my_tabs_2" class="tab" aria-label="Certificate and Badge" />

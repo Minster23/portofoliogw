@@ -17,13 +17,41 @@
         {
             "skill": "System Design",
             "bg": "bg-amber-400"
+        },
+        {
+            "skill": "Embedded",
+            "bg": "bg-orange-400"
+        },
+        {
+            "skill": "linux",
+            "bg": "bg-yellow-400"
         }
     ],
     "Project": [
         {
-            "Title": "Game Engine",
-            "Link": "",
-            "Tentag": ""
+            "Title": "Quevle Engine",
+            "Link": "https://github.com/Minster23/Quavle-Engine-Core",
+            "Tentag": "Game engine berbasis C++ dan OpenGL dengan CMake project manager, support scripting denga LUA "
+        },
+        {
+            "Title": "Quevle Engine",
+            "Link": "https://github.com/Minster23/Quavle-Engine-Core",
+            "Tentag": "Game engine berbasis C++ dan OpenGL dengan CMake project manager, support scripting denga LUA "
+        },
+        {
+            "Title": "Quevle Engine",
+            "Link": "https://github.com/Minster23/Quavle-Engine-Core",
+            "Tentag": "Game engine berbasis C++ dan OpenGL dengan CMake project manager, support scripting denga LUA "
+        },
+        {
+            "Title": "Quevle Engine",
+            "Link": "https://github.com/Minster23/Quavle-Engine-Core",
+            "Tentag": "Game engine berbasis C++ dan OpenGL dengan CMake project manager, support scripting denga LUA "
+        },
+        {
+            "Title": "Quevle Engine",
+            "Link": "https://github.com/Minster23/Quavle-Engine-Core",
+            "Tentag": "Game engine berbasis C++ dan OpenGL dengan CMake project manager, support scripting denga LUA "
         }
     ]
 }

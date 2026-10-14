@@ -8,7 +8,7 @@ const Shows: Component = () => {
         <span>
           <For each={Info.Skill} fallback={<span>....</span>}>
             {(item) => (
-              <span class={item.bg + " font-bold rounded px-2"}>
+              <span class={item.bg + " font-bold rounded px-2 hover:underline hover:animate-bounce"}>
                 {item.skill}
               </span>
             )}
