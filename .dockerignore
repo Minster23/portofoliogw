@@ -1,0 +1,13 @@
+# Mengabaikan folder dependency lokal
+node_modules/
+venv/
+.venv/
+
+# Mengabaikan file konfigurasi sensitif
+.env
+*.local
+
+# Mengabaikan folder log dan git
+.git
+.gitignore
+*.log
