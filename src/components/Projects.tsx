@@ -23,7 +23,7 @@ const ProjectShow: Component = () => {
               </svg>
             </div>
             <div class="timeline-end timeline-box">
-              <span class="font-bold">{item.Title}</span>
+              <span class="font-bold text-2xl">{item.Title}</span>
               <br />
               <span class="text-blue-300">
                 <a href={item.Link} target="_blank">

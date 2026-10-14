@@ -4,11 +4,11 @@ import Info from "../konten/Info.json";
 const Shows: Component = () => {
   return (
     <>
-      <span class="text-rotate duration-4700 ">
+      <span class="text-rotate duration-5700 ">
         <span>
           <For each={Info.Skill} fallback={<span>....</span>}>
             {(item) => (
-              <span class={item.bg + " font-bold rounded px-2 hover:underline hover:animate-bounce"}>
+              <span class={item.bg + " font-bold rounded px-2 hover:underline"}>
                 {item.skill}
               </span>
             )}

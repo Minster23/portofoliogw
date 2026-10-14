@@ -1,6 +1,7 @@
 import { type Component } from "solid-js";
 import Info from "../konten/Info.json";
 import ProjectShow from "./Projects";
+import CertShow from "./Cert";
 
 const Tabs: Component = () => {
   return (
@@ -18,7 +19,7 @@ const Tabs: Component = () => {
 
       <input type="radio" name="my_tabs_2" class="tab" aria-label="Certificate and Badge" />
       <div class="tab-content border-base-300 bg-base-100 p-10">
-        Certificate and Badge
+        <CertShow/>
       </div>
 
     </div>

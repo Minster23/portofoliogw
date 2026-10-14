@@ -1,57 +1,79 @@
 {
-    "Nama": "Athilah Rafi Nurman",
-    "Tentang": ", seorang mahasiswa S1 Rekayasa Lunak yang memiliki skill ",
-    "Skill": [
-        {
-            "skill": "DevOps",
-            "bg": "bg-red-400"
-        },
-        {
-            "skill": "Backend",
-            "bg": "bg-blue-400"
-        },
-        {
-            "skill": "Google Cloud",
-            "bg": "bg-teal-400"
-        },
-        {
-            "skill": "System Design",
-            "bg": "bg-amber-400"
-        },
-        {
-            "skill": "Embedded",
-            "bg": "bg-orange-400"
-        },
-        {
-            "skill": "linux",
-            "bg": "bg-yellow-400"
-        }
-    ],
-    "Project": [
-        {
-            "Title": "Quevle Engine",
-            "Link": "https://github.com/Minster23/Quavle-Engine-Core",
-            "Tentag": "Game engine berbasis C++ dan OpenGL dengan CMake project manager, support scripting denga LUA "
-        },
-        {
-            "Title": "Quevle Engine",
-            "Link": "https://github.com/Minster23/Quavle-Engine-Core",
-            "Tentag": "Game engine berbasis C++ dan OpenGL dengan CMake project manager, support scripting denga LUA "
-        },
-        {
-            "Title": "Quevle Engine",
-            "Link": "https://github.com/Minster23/Quavle-Engine-Core",
-            "Tentag": "Game engine berbasis C++ dan OpenGL dengan CMake project manager, support scripting denga LUA "
-        },
-        {
-            "Title": "Quevle Engine",
-            "Link": "https://github.com/Minster23/Quavle-Engine-Core",
-            "Tentag": "Game engine berbasis C++ dan OpenGL dengan CMake project manager, support scripting denga LUA "
-        },
-        {
-            "Title": "Quevle Engine",
-            "Link": "https://github.com/Minster23/Quavle-Engine-Core",
-            "Tentag": "Game engine berbasis C++ dan OpenGL dengan CMake project manager, support scripting denga LUA "
-        }
-    ]
+  "Nama": "Athilah Rafi Nurman",
+  "Tentang": ", seorang mahasiswa S1 Rekayasa Lunak dari Telkom University yang memiliki skill",
+  "Skill": [
+    {
+      "skill": "DevOps",
+      "bg": "bg-red-400"
+    },
+    {
+      "skill": "Backend",
+      "bg": "bg-blue-400"
+    },
+    {
+      "skill": "Google Cloud",
+      "bg": "bg-teal-400"
+    },
+    {
+      "skill": "System Design",
+      "bg": "bg-amber-400"
+    },
+    {
+      "skill": "Embedded",
+      "bg": "bg-orange-400"
+    },
+    {
+      "skill": "linux",
+      "bg": "bg-yellow-400"
+    }
+  ],
+  "Project": [
+    {
+      "Title": "Quevle Engine",
+      "Link": "https://github.com/Minster23/Quavle-Engine-Core",
+      "Tentag": "Game engine berbasis ImGui, C++ dan OpenGL dengan CMake project manager, support scripting denga LUA "
+    },
+    {
+      "Title": "Nimmake",
+      "Link": "https://github.com/Minster23/nimmake",
+      "Tentag": "Project manager untuk C++/C, diperuntukan untuk prototipe ringan dan fitur automatis download dari Github"
+    },
+    {
+      "Title": "IoT Cam",
+      "Link": "https://github.com/Minster23/IOT",
+      "Tentag": "Project IoT kamera berbasis ESP32"
+    }
+  ],
+  "Cert": [
+    {
+      "Title": "Implement CI/CD Pipelines on Google Cloud",
+      "Link": "https://www.skills.google/public_profiles/c22b987c-1587-4220-8937-f0b7e31986c0/badges/26304542?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+      "Image": "https://cdn.qwiklabs.com/y0ljecuLROGjvQ8c%2FF44IcE6K3QztUCKZM3rbXHl9ew%3D"
+    },
+    {
+      "Title": "Google Skilss Arcade",
+      "Link": "https://www.skills.google/public_profiles/c22b987c-1587-4220-8937-f0b7e31986c0/badges/26304366?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+      "Image": "https://cdn.qwiklabs.com/s3e1UZHazecZsWuyxDItQZQcaqADNVdemWghibCfeEQ%3D"
+    },
+    {
+      "Title": "Devlop with Apps Script and Appsheet",
+      "Link": "https://www.skills.google/public_profiles/c22b987c-1587-4220-8937-f0b7e31986c0/badges/26287044?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+      "Image": "https://cdn.qwiklabs.com/WUI%2BxvmLhj0U4q2%2BG6Ec%2Bt5OpG8GoHQ%2FI2ONuFjKSlE%3D"
+    }
+  ],
+  "Social": [
+    {
+      "Title": "Linkedin",
+      "Link": "https://linkedin.com/in/athilah-nurman-work"
+    },
+    {
+      "Title": "Github",
+      "Link": "https://github.com/Minster23"
+    },
+    {
+      "Title": "HackerRank",
+      "Link": "https://hackerrank.com/profile/memebiasa"
+    }
+  ],
+  "Lang": ["C++", "SQL", "Golang", "Typescript", "Rust"]
 }
