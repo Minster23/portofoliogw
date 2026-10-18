@@ -38,7 +38,9 @@ const Hero: Component = () => {
               )}
             </For>
           </div>
+
         </div>
+        <iframe frameBorder="0" height="157px" width="88%" src="https://git-graph.vercel.app/embed/Minster23?showColorLegend=true&showWeekdayLabels=true&showMonthLabels=true&showTotalCount=true&blockMargin=2&blockRadius=0&blockSize=10&fontSize=14&weekStart=4&year=2026"></iframe>
       </div>
     </div>
   );
