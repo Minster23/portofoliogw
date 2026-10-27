@@ -31,17 +31,17 @@
     {
       "Title": "Quevle Engine",
       "Link": "https://github.com/Minster23/Quavle-Engine-Core",
-      "Tentag": "Game engine berbasis ImGui, C++ dan OpenGL dengan CMake project manager, support scripting denga LUA "
+      "Tentang": "Game engine berbasis ImGui, C++ dan OpenGL dengan CMake project manager, support scripting denga LUA "
     },
     {
       "Title": "Nimmake",
       "Link": "https://github.com/Minster23/nimmake",
-      "Tentag": "Project manager untuk C++/C, diperuntukan untuk prototipe ringan dan fitur automatis download dari Github"
+      "Tentang": "Project manager untuk C++/C, diperuntukan untuk prototipe ringan dan fitur automatis download dari Github"
     },
     {
       "Title": "IoT Cam",
       "Link": "https://github.com/Minster23/IOT",
-      "Tentag": "Project IoT kamera berbasis ESP32"
+      "Tentang": "Project IoT kamera berbasis ESP32"
     }
   ],
   "Cert": [

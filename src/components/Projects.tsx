@@ -31,7 +31,7 @@ const ProjectShow: Component = () => {
                 </a>
               </span>
               <br />
-              <span class="font-bold">{item.Tentag}</span>
+              <span class="font-bold">{item.Tentang}</span>
             </div>
             <hr />
           </li>
