@@ -1,4 +1,4 @@
-import { For, type Component } from "solid-js";
+import { For, useTransition, type Component } from "solid-js";
 import Info from "../konten/Info.json";
 import Shows from "./Show";
 
@@ -31,16 +31,15 @@ const Hero: Component = () => {
           <span>Languages: </span>
           <div class="flex flex-wrap gap-2 justify-start items-center mt-2">
             <For each={Info.Lang}>
-              {(i) => (
-                <div class="badge badge-sm badge-outline">
-                  {i}
-                </div>
-              )}
+              {(i) => <div class="badge badge-sm badge-outline">{i}</div>}
             </For>
           </div>
-
         </div>
-        <iframe frameBorder="0" height="157px" width="88%" src="https://git-graph.vercel.app/embed/Minster23?showColorLegend=true&showWeekdayLabels=true&showMonthLabels=true&showTotalCount=true&blockMargin=2&blockRadius=0&blockSize=10&fontSize=14&weekStart=4&year=2026"></iframe>
+        <iframe
+          height="157px"
+          width="88%"
+          src="https://git-graph.vercel.app/embed/Minster23?showColorLegend=true&showWeekdayLabels=true&showMonthLabels=true&showTotalCount=true&blockMargin=2&blockRadius=0&blockSize=10&fontSize=14&weekStart=4&year=2026"
+        ></iframe>
       </div>
     </div>
   );
