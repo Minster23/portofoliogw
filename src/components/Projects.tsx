@@ -3,42 +3,26 @@ import Info from "../konten/Info.json";
 
 const ProjectShow: Component = () => {
   return (
-    <ul class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 justify-items-center p-4">
       <For each={Info.Project}>
         {(item) => (
-          <li>
-            <hr />
-            <div class="timeline-middle">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-                class="h-5 w-5"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                  clip-rule="evenodd"
-                />
-              </svg>
-            </div>
-            <div class="timeline-end timeline-box">
-              <span class="font-bold text-2xl">{item.Title}</span>
-              <br />
-              <span class="text-blue-300">
-                <a href={item.Link} target="_blank">
-                  {item.Link}
-                </a>
-              </span>
-              <br />
-              <span class="font-bold">{item.Tentang}</span>
-            </div>
-            <hr />
-          </li>
+          <div>
+            <div class="card bg-primary text-primary-content w-full max-w-60 flex flex-col">
+  <div class="card-body">
+    <h2 class="card-title">{item.Title}</h2>
+    <p>{item.Tentang}</p>
+    <div class="card-actions justify-end">
+      <button class="btn">
+        <a href={item.Link} target="_blank">
+          Lihat
+        </a></button>
+    </div>
+  </div>
+  </div>
+          </div>
         )}
       </For>
-  
-    </ul>
+    </div>
   );
 };
 
