@@ -15,6 +15,7 @@ const Hero: Component = () => {
               Saya {Info.Nama}
               {Info.Tentang} <Shows />
             </span>
+            <p></p>
           </p>
           <span>Social: </span>
           <div class="mb-2 mt-2 flex flex-wrap gap-2 justify-start items-center">
