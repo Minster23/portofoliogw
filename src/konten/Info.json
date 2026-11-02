@@ -78,6 +78,10 @@
     {
       "Title": "HackerRank",
       "Link": "https://hackerrank.com/profile/memebiasa"
+    },
+    {
+      "Title": "Leetcode",
+      "Link": "https://leetcode.com/u/minster23/"
     }
   ],
   "Lang": ["C++", "SQL", "Golang", "Typescript", "Rust"]

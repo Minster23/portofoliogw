@@ -8,7 +8,7 @@ const Hero: Component = () => {
       <div class="hero-content flex-col lg:flex-row">
         <div>
           <h1 class="text-5xl font-bold font-sans">
-            <span class="hover:underline">Halo</span>
+            <span class="hover:underline">Hi</span>
           </h1>
           <p class="py-6">
             <span>
