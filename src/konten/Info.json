@@ -4,28 +4,36 @@
   "Skill": [
     {
       "skill": "DevOps",
-      "bg": "bg-red-400"
+      "bg": "#475569",
+      "icon": "AiOutlineCloud"
     },
     {
       "skill": "Backend",
-      "bg": "bg-blue-400"
+      "bg": "#4f46e5",
+      "icon": "AiOutlineCode"
     },
     {
       "skill": "Google Cloud",
-      "bg": "bg-teal-400"
+      "bg": "#0ea5e9",
+      "icon": "AiOutlineCloudServer"
     },
     {
       "skill": "System Design",
-      "bg": "bg-amber-400"
+      "bg": "#059669",
+      "icon": "AiOutlinePartition"
     },
     {
       "skill": "Embedded",
-      "bg": "bg-orange-400"
+      "bg": "#d97706",
+      "icon": "AiOutlineLaptop"
     },
     {
       "skill": "linux",
-      "bg": "bg-yellow-400"
+      "bg": "#262626",
+      "icon": "AiOutlineLinux"
     }
+
+
   ],
   "Project": [
     {

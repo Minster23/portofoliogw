@@ -30,3 +30,5 @@ Thumbs.db
 # Info
 /src/konten/
 ./src/konten/
+/src/konten/Info.json
+./src/konten/Info.json
