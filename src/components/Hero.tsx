@@ -1,7 +1,8 @@
 import { For, useTransition, type Component } from "solid-js";
 import Info from "../konten/Info.json";
 import Shows from "./Show";
-
+import { Dynamic } from 'solid-js/web';
+import * as Icon from "solid-icons/fa"
 const Hero: Component = () => {
   return (
     <div class="hero bg-base-200">
@@ -21,6 +22,7 @@ const Hero: Component = () => {
             <For each={Info.Social}>
               {(i) => (
                 <div class="badge badge-md badge-outline">
+                  <Dynamic component={Icon[i.Icon]}/>
                   <a href={i.Link} target="_blank">
                     {i.Title}
                   </a>

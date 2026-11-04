@@ -77,19 +77,23 @@
   "Social": [
     {
       "Title": "Linkedin",
-      "Link": "https://linkedin.com/in/athilah-nurman-work"
+      "Link": "https://linkedin.com/in/athilah-nurman-work",
+      "Icon" :"FaBrandsLinkedin"
     },
     {
       "Title": "Github",
-      "Link": "https://github.com/Minster23"
+      "Link": "https://github.com/Minster23",
+      "Icon" :"FaBrandsGithub"
     },
     {
       "Title": "HackerRank",
-      "Link": "https://hackerrank.com/profile/memebiasa"
+      "Link": "https://hackerrank.com/profile/memebiasa",
+      "Icon" :"FaBrandsHackerrank"
     },
     {
       "Title": "Leetcode",
-      "Link": "https://leetcode.com/u/minster23/"
+      "Link": "https://leetcode.com/u/minster23/",
+      "Icon" :"FaRegularStar"
     }
   ],
   "Lang": ["C++", "SQL", "Golang", "Typescript", "Rust"]
