@@ -8,17 +8,17 @@ const ProjectShow: Component = () => {
         {(item) => (
           <div>
             <div class="card bg-primary text-primary-content max-w-64 flex flex-col">
-  <div class="card-body">
-    <h2 class="card-title">{item.Title}</h2>
-    <p>{item.Tentang}</p>
-    <div class="card-actions justify-end">
-      <button class="btn">
-        <a href={item.Link} target="_blank">
-          Lihat
-        </a></button>
-    </div>
-  </div>
-  </div>
+              <div class="card-body">
+                <h2 class="card-title">{item.Title}</h2>
+                <p>{item.Tentang}</p>
+                <div class="card-actions justify-end">
+                  <button class="btn">
+                    <a href={item.Link} target="_blank">
+                      Lihat
+                    </a></button>
+                </div>
+              </div>
+            </div>
           </div>
         )}
       </For>
